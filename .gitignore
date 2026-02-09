@@ -1,0 +1,13 @@
+# Credentials and Secrets
+.env
+
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
