@@ -4,5 +4,9 @@
     {% for post in posts %}
     <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
     {% endfor %}
-
+     {# 
+    create a leaderboard with the table from the SQL Db
+    Use for items in leaderboard
+    Use python code for the back end logic
+    #}
 {% endblock %}
