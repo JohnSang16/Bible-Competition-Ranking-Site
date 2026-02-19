@@ -8,8 +8,12 @@
       {% endif %}
     </head>
     <body>
-        <a href="{{ url_for('login') }}">Login</a>
-        <div>Microblog: <a href="/index">{{title}}</a></div>
+       
+        <div>
+            Microblog:
+    <a href="/index">Home</a>
+    <a href="/login">Login</a>
+</div>
         <hr>
         {% block content %}{% endblock %}
     </body>
