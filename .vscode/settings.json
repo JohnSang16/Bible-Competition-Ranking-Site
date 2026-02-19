@@ -16,5 +16,7 @@
             "connectionTimeout": 30,
             "askForPassword": true
         }
-    ]
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python-envs.pythonProjects": []
 }
